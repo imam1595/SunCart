@@ -6,7 +6,7 @@ import { CiDollar, CiStar } from "react-icons/ci";
 
 const ProductCard = ({one}) => {
     return (
-        <div className="card bg-base-100 shadow-sm border-slate-400">
+        <div className="card shadow-sm border-slate-400 bg-[#fff7ed]">
             <figure className='relative w-full aspect-square'>
 
                 <div 

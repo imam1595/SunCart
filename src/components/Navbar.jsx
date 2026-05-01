@@ -5,7 +5,7 @@ import { IoSunnyOutline } from "react-icons/io5";
 
 const Navbar = () => {
     return (
-        <div className='min-h-[10vh] container mx-auto shadow p-3 flex flex-col text-center space-y-5 md:flex-row justify-between items-center'>
+        <div className='min-h-[10vh] container mx-auto shadow p-3 flex flex-col text-center space-y-5 md:flex-row justify-between items-center bg-[#fff7ed]'>
 
             <div className='font-bold text-3xl text-accent flex justify-center items-center gap-3'>
                 SumCart

@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import CareTips from "@/components/CareTips";
 import PopularProducts from "@/components/PopularProducts";
+import TopBrands from "@/components/TopBrands";
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Banner />
       <PopularProducts />
       <CareTips />
+      <TopBrands />
     </div>
   );
 }
