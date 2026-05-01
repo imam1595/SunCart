@@ -11,7 +11,7 @@ const Footer = () => {
 
                     <div className='flex flex-col space-y-5'>
                         <div className='font-bold text-2xl text-accent flex justify-center items-center gap-3'>
-                            SumCart
+                            SunCart
                             <IoSunnyOutline />
                         </div>
                         <div>

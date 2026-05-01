@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='min-h-[10vh] container mx-auto shadow p-3 flex flex-col text-center space-y-5 md:flex-row justify-between items-center bg-[#fff7ed]'>
 
             <div className='font-bold text-3xl text-accent flex justify-center items-center gap-3'>
-                SumCart
+                SunCart
                 <IoSunnyOutline />
             </div>
 
@@ -25,8 +25,8 @@ const Navbar = () => {
                 </div>
 
                 <div className='flex gap-5'>
-                    <button className='btn btn-outline'>Login</button>
-                    <button className='btn btn-outline'>Register</button>
+                    <Link href={'/login'}><button className='btn btn-outline'>Login</button></Link>
+                    <Link href={'/register'}><button className='btn btn-outline'>Register</button></Link>
                 </div>
             </div>
         </div>

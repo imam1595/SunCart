@@ -4,7 +4,7 @@ import React from 'react';
 const Banner = () => {
     return (
         
-        <div className="hero bg-base-200 mt-10">
+        <div className="hero bg-[#fff7ed] mt-10">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <Image 
                     src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1400&q=90"
