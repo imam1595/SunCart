@@ -30,12 +30,19 @@ const Footer = () => {
                         <h5>Home</h5>
                         <h5>Product</h5>
                         <h5>My Profile</h5>
-                        <h5>Contact</h5>
+                    </div>
+
+                    <div className='mb-4'>
+                        <h1 className='font-bold text-xl md:text-2xl'>Contact</h1>
+                        <h5>Hot Line: 12666</h5>
+                        <h5>Phone: 011188514500</h5>
+                        <h5>Tel: +999987654221</h5>
+                        <h5>suncart@umail.com</h5>
                     </div>
 
                     <div>
-                        <h1 className='font-bold text-xl md:text-2xl'>Legal</h1>
-                        <h5>Privacy Policy</h5>
+                        <h1 className='font-bold text-xl md:text-2xl'>Privacy Policy</h1>
+                        <h5>Legal</h5>
                         <h5>Terms and Conditions</h5>
                         <h5>Returns Policy</h5>
                     </div>
