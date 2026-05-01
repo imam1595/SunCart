@@ -19,8 +19,8 @@ const Banner = () => {
                     <h1 className='font-bold text-2xl md:text-4xl'>Your Summer Essentials 50% OFF</h1>
                     <p>Shop the hottest deals on sunglasses, beach gear, skincare & outfits. Beat the heat in style. Shop Now</p>
                     <div className='flex gap-4 justify-center'>
-                        <button className='btn btn-accent'>Shop Now</button>
-                        <button className='btn btn-accent'>View Details</button>
+                        <button className='btn btn-outline'>Shop Now</button>
+                        <button className='btn btn-outline'>View Details</button>
                     </div>
                 </div>
             </div>

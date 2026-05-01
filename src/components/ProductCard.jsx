@@ -29,6 +29,7 @@ const ProductCard = ({one}) => {
                     src={one.image}
                     alt='image'
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className='object-cover rounded-xl'
                 />
             </figure>
@@ -49,6 +50,8 @@ const ProductCard = ({one}) => {
                         {one.price}
                     </h1>
                 </div>
+
+                <button className='btn btn-outline w-full rounded-xl'>View Details</button>
             </div>
         </div>
     );

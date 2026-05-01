@@ -21,12 +21,12 @@ const Navbar = () => {
             <div className='flex flex-col gap-5 items-center md:flex-row'>
 
                 <div className='flex gap-4'>
-                    <button className='btn btn-accent'>Logout</button>
+                    <button className='btn btn-outline'>Logout</button>
                 </div>
 
                 <div className='flex gap-5'>
-                    <button className='btn btn-accent'>Login</button>
-                    <button className='btn btn-accent'>Register</button>
+                    <button className='btn btn-outline'>Login</button>
+                    <button className='btn btn-outline'>Register</button>
                 </div>
             </div>
         </div>
