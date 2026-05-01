@@ -40,7 +40,7 @@
     "rating": 4.3,
     "stock": 15,
     "description": "Giant inflatable pool and beach floatie in fun summer shapes. Made from durable, puncture-resistant PVC. Easy to inflate and deflate for convenient storage.",
-    "image": "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=600&q=80",
+    "image": "https://unsplash.com/photos/white-blue-and-red-inflatable-inflatable-balloon-on-beach-shore-during-daytime-tin0vgaUS5Y",
     "category": "Beach Accessories"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
     "id": 6,
-    "name": "Men's Swim Shorts",
+    "name": "Men's Jeans",
     "brand": "BeachWave",
     "price": 26,
     "rating": 4.4,
     "stock": 40,
-    "description": "Quick-dry men's swim shorts with a tropical print. Features an elastic waistband, drawstring, and side pockets. Perfect for swimming, surfing, or beach volleyball.",
+    "description": "Quick-dry men's Jeans with a tropical print. Features an elastic waistband, drawstring, and side pockets. Perfect for swimming, surfing, or beach volleyball.",
     "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=600&q=80",
     "category": "Clothing"
   },
@@ -73,7 +73,7 @@
     "rating": 4.8,
     "stock": 50,
     "description": "Soothing aloe vera gel that instantly cools and hydrates sun-exposed skin. Reduces redness and peeling. Fragrance-free and dermatologist tested for sensitive skin.",
-    "image": "https://images.unsplash.com/photo-1601612628452-9e99ced43524?w=600&q=80",
+    "image": "https://unsplash.com/photos/clarins-cream-soft-tube-7lFGxDph5KQ",
     "category": "Skincare"
   },
   {
@@ -95,18 +95,18 @@
     "rating": 4.2,
     "stock": 12,
     "description": "UV-blocking portable beach umbrella with a sand anchor base. 6.5 ft canopy provides shade for two people. Lightweight aluminum pole and carrying bag included.",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80",
+    "image": "https://unsplash.com/photos/yellow-umbrella-on-surface-of-water-at-daytime-bmtg7lrCry4",
     "category": "Beach Accessories"
   },
   {
     "id": 10,
-    "name": "Women's Bikini Set",
+    "name": "Women's Clothes",
     "brand": "BeachWave",
     "price": 42,
     "rating": 4.7,
     "stock": 22,
     "description": "Vibrant two-piece bikini set in a bold tropical print. Adjustable ties for a custom fit. Made from chlorine-resistant fabric that retains shape and color all season.",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "image": "https://unsplash.com/photos/a-woman-is-trying-to-find-a-dress-on-a-rack-9Jr9hUzRVhc",
     "category": "Clothing"
   },
   {
@@ -117,7 +117,7 @@
     "rating": 4.6,
     "stock": 30,
     "description": "Refreshing facial mist infused with hyaluronic acid and rose water. Instantly hydrates and cools your skin on hot summer days. Travel-friendly 100ml spray bottle.",
-    "image": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&q=80",
+    "image": "https://unsplash.com/photos/3-piece-clear-glass-bottles-b3rzDYdQ_QQ",
     "category": "Skincare"
   },
   {
