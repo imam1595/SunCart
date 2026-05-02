@@ -1,19 +1,29 @@
 'use client'
+import { authClient } from '@/lib/auth-client';
 import Link from 'next/link';
 import React from 'react';
 import { FaGoogle } from "react-icons/fa";
 
 const RegisterPage = () => {
-    const handleRegister = (e) => {
-        e.preventDefault(); // This stops the page from refreshing
+    const handleRegister = async (e) => {
+        e.preventDefault();
         
-        // Now you can grab the data safely
+
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        const url = e.target.url.value;
+        const image = e.target.url.value;
         
-        console.log({name,email,password,url});
+        console.log({name,email,password,image});
+
+        const {data, error} = await authClient.signUp.email({
+            name,
+            email,
+            password,
+            image
+        })
+
+        console.log({data, error});
         
     };
 
@@ -51,3 +61,13 @@ const RegisterPage = () => {
 };
 
 export default RegisterPage;
+
+
+
+
+//  https://i.ibb.co.com/8DrHQ64j/9169458e-1412-4c2c-911b-80ebf3e9c47d.jpg
+//  https://i.ibb.co.com/WL4fdd4/Babar-Azam-2.webp
+//  https://i.ibb.co.com/7x5HzrtH/Ellipse-1.png
+//  https://i.ibb.co.com/HfffKqpM/Ellipse-2.png
+//  https://i.ibb.co.com/tFSpwNJ/Ellipse-3.png
+//  https://i.ibb.co.com/sph9kLhK/Ellipse-4.png

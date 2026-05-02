@@ -9,7 +9,7 @@ const PopularProducts = async () => {
     // console.log(products);
 
     const topThree = products.slice(0,3);
-    console.log(topThree);
+    // console.log(topThree);
 
     return (
         <div>

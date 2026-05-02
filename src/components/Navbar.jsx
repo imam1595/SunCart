@@ -2,6 +2,7 @@ import { Button } from '@heroui/react';
 import Link from 'next/link';
 import React from 'react';
 import { IoSunnyOutline } from "react-icons/io5";
+import NavLink from './NavLink';
 
 const Navbar = () => {
     return (
@@ -13,20 +14,20 @@ const Navbar = () => {
             </div>
 
             <ul className='flex flex-col text-center md:flex-row gap-5'>
-                <li><Link href={'/'}>Home</Link></li>
-                <li><Link href={'/products'}>Products</Link></li>
-                <li><Link href={'/profile'}>My Profile</Link></li>
+                <li><NavLink href={'/'}>Home</NavLink></li>
+                <li><NavLink href={'/products'}>Products</NavLink></li>
+                <li><NavLink href={'/profile'}>My Profile</NavLink></li>
             </ul>
 
             <div className='flex flex-col gap-5 items-center md:flex-row'>
 
                 <div className='flex gap-4'>
-                    <button className='btn btn-outline'>Logout</button>
+                    <Link href={'/logout'}><button className='btn bg-[#f59e0b]'>Logout</button></Link>
                 </div>
 
                 <div className='flex gap-5'>
-                    <Link href={'/login'}><button className='btn btn-outline'>Login</button></Link>
-                    <Link href={'/register'}><button className='btn btn-outline'>Register</button></Link>
+                    <Link href={'/login'}><button className='btn bg-[#f59e0b]'>Login</button></Link>
+                    <Link href={'/register'}><button className='btn bg-[#f59e0b]'>Register</button></Link>
                 </div>
             </div>
         </div>

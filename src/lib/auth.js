@@ -2,8 +2,14 @@ import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "better-auth/adapters/mongodb";
 
+// import dns from "dns";
+// dns.setDefaultResultOrder("ipv4first");
+
+// import dns from 'node:dns';
+// dns.setServers(['8.8.8.8', '8.8.4.4']);
+
 const client = new MongoClient(process.env.MONGODB_URL);
-const db = client.db(suncart);
+const db = client.db("suncart");
 
 export const auth = betterAuth({
   database: mongodbAdapter(db, {
